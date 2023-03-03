@@ -1,0 +1,15 @@
+.button {
+    font-size: 1.25rem;
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.button[data-variant='outlined'] {
+    border: 1px solid var(--color-text-primary);
+}
+
+.button[data-variant='standard'] {
+    border: 1px solid var(--color-text-primary);
+    background-color: var(--color-text-primary);
+    color: white;
+}
